@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <section class="chat__section">
+        <div class="brand">
+            <img src="/wassup.png" alt="" height="40">
+            <h1> Whats Up <h1>
+        </div>
+        <div class="message__area">
+            <div class="incoming message">
+                <h4>Lorem</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quaerat similique iusto sunt eum, adipisci quas delectus pariatur sit fuga.</p>
+            </div>
+
+            <div class="outgoing message">
+                <h4>Rakesh</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, expedita.</p>
+            </div>
+
+        </div>
+
+        <div>
+            <textarea  id="textarea" cols="30" rows="1" placeholder="write message"></textarea>
+        </div>
+    </section>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/public/client.js"></script>
+</body>
+</html>
